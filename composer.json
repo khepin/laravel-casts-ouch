@@ -1,0 +1,17 @@
+{
+    "name": "sebastien/ltests",
+    "autoload": {
+        "psr-4": {
+            "Sebastien\\Ltests\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Seb",
+            "email": "sebastien@squareup.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "10.*"
+    }
+}
