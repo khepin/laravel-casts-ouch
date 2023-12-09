@@ -36,3 +36,4 @@ $b = new B(['a' => (object) ['name' => 'bob'], 'b' => 'b']);
 
 Timer::td(fn () => $b->a, 'attribute a'); // attribute a = 1.00 s
 Timer::td(fn () => $b->b, 'attribute b'); // attribute b = 1.00 s
+Timer::td(fn () => $b->b, 'attribute b'); // attribute b = 1.00 s
